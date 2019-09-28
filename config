@@ -190,7 +190,7 @@ hide_edge_borders both
 #	}
 #}
 
-bindsym $mod+shift+x exec i3lock --color "$bg-color"
+bindsym $mod+shift+x exec i3lock -i ~/Pictures/background.png
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec ~/.config/i3/rofi_patch.sh
@@ -230,3 +230,4 @@ exec_always feh --randomize --bg-fill ~/Pictures/background.png
 exec setxkbmap fr-latin9
 exec_always compton
 exec_always no-homo
+exec --no-startup-id i3lock -i ~/Pictures/background.png

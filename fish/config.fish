@@ -4,6 +4,7 @@ set XDG_DATA_DIRS $PATH
 alias ne=nano
 alias ls=exa
 alias cat=bat
+alias tree="exa --tree"
 
 function prompt_loc --on-event fish_prompt
     echo $PWD > /tmp/whereami

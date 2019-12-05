@@ -218,6 +218,11 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+# Screenshot
+bindsym Print exec gnome-screenshot
+bindsym Shift+Print exec gnome-screenshot -i
+bindsym Control+Print exec gnome-screenshot -w
+
 # Assigments
 assign [class="discord"] $ws9
 assign [class="Code"] $ws3
